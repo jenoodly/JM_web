@@ -1,2 +1,2 @@
-# JM_web
-a website :)
+# ~ ACM website dev ~
+www.jennellemaximo.me
