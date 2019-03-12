@@ -1,3 +1,40 @@
 body{
-    background-color: aquamarine;
+    background-color: #e0ffeb;
+    margin:0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar-name{
+    float: left;
+    position: absolute;
+    font-size: 2em;
+
+    margin-top: 0.75em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+.navbar-container{
+    position: absolute;
+    background-image: linear-gradient(black,#e0ffeb);
+
+    width: 100%;
+}
+
+.navbar-container a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.links li{
+    list-style-type: none;
+    display: inline-block;
+
+    margin-top: 1em;
+    margin-right: 2em;
+    margin-bottom: 1em;
+}
+
+.navbar-links{
+    float: right;
 }
