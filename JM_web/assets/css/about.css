@@ -16,7 +16,7 @@ body{
 
 .navbar-container{
     position: absolute;
-    background-image: linear-gradient(black,#e0ffeb);
+    background-image: black;
 
     width: 100%;
 }
