@@ -12,10 +12,9 @@ html, body {
   }
   
   div.vertical-line{
-    width: 1px;
+    width: 3px;
     background-color: black;
     height: 100%;
     float: left;
-    border: 2px ridge black ;
-    border-radius: 2px;
+    
   }
