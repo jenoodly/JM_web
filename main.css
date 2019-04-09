@@ -11,3 +11,11 @@ html, body {
     font-weight: 500;
   }
   
+  div.vertical-line{
+    width: 1px;
+    background-color: silver;
+    height: 100%;
+    float: left;
+    border: 2px ridge silver ;
+    border-radius: 2px;
+  }
