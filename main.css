@@ -10,16 +10,10 @@ html, body {
     text-align: center;
     font-weight: 500;
   }
-  
-  div.vertical-line{
-    width: 3px;
-    background-color: black;
-    height: 100%;
-    float: left;
-    
-  }
 
-  p.one {
-    border-style: solid;
-    border-width: 5px;
-  }
+  #main    {
+    background-color: #FFFFFF;
+    width: border-box;
+    margin: 50px auto;
+    border: 10px solid black; /* width, style, colour */
+    }
