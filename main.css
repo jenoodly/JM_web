@@ -1,19 +1,4 @@
-html, body {
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-    font-weight: 300;
-    line-height: 1.5;
-  }
+html{
+    background-color: #0e9afa;
+}
   
-  .page-title {
-    text-align: center;
-    font-weight: 500;
-  }
-
-  #main    {
-    background-color: #FFFFFF;
-    width: border-box;
-    margin: 50px auto;
-    border: 10px solid black; /* width, style, colour */
-    }
