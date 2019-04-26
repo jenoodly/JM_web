@@ -86,10 +86,7 @@ img {
 
 @media screen and (max-width: 840px) {
   .yourName {
-    position: static;
-    bottom: 150px;
     text-align: center;
-    font-size: 350px;
     font-family: 'Kaushan Script', cursive;
   }
 }
