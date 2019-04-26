@@ -8,19 +8,14 @@ html, body {
   width: 100%;
 }
 
-.visible-mobile {
-  display: none !important;
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+@-ms-viewport {
+  width: device-width ;
 }
 
-@media (max-width: 1000px) {
-  .visible-mobile {
-    display: inline !important;
-  }
-
-  .hidden-mobile {
-    display: none !important;
-  }
-}
 
 
 img {
@@ -29,5 +24,3 @@ img {
     min-width: 100%;
     min-height: 100%;
 }
-
-
