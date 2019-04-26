@@ -76,35 +76,21 @@ img {
 }
 
 @media screen and (min-width: 839px) {
-  .first {
-    position: fixed;
+  .yourName {
+    position: absolute;
     bottom: 100px;
     left: 100px;
     font-size: 350px;
     font-family: 'Kaushan Script', cursive;
   }
-  .last {
-    position: fixed;
-    bottom: 100px;
-    left: 200px;
-    font-size: 90px;
-    font-family: 'Kaushan Script', cursive;
-  }
 }
 
 @media screen and (max-width: 840px) {
-  .first {
+  .yourName {
     position: static;
     bottom: 150px;
     text-align: center;
     font-size: 350px;
-    font-family: 'Kaushan Script', cursive;
-  }
-  .last {
-    position: static;
-    bottom: 200px;
-    text-align: center;
-    font-size: 90px;
     font-family: 'Kaushan Script', cursive;
   }
 }
