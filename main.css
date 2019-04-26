@@ -76,15 +76,14 @@ img {
 
 @media screen and (min-width: 839px) {
   .first {
-    position: -ms-page;
-    bottom: 300px;
+    position: absolute;
+    bottom: 200px;
     left: 100px;
     font-family: 'Kaushan Script', cursive;
   }
   .last{
-    position: -ms-page;
-    
-    bottom: 300px;
+    position: absolute;
+    bottom: 200px;
     left: 150px;
     font-family: 'Kaushan Script', cursive;
   }
