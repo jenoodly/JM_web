@@ -12,25 +12,39 @@ html, body {
   width: device-width ;
 }
 
-
+/* eggs */
 .eggs_full{
   display:block;
- }
-
+}
 .eggs_mobile{
  display:none;
 }
-
 @media (max-width: 640px) and (min-width: 320px){
  .eggs_full{
   display:none;
  }
-
  .eggs_mobile{
   display:block;
  }
 }
 
+/* excess layer */
+.e_full{
+  display:block;
+}
+.e_mobile{
+ display:none;
+}
+@media (max-width: 640px) and (min-width: 320px){
+ .e_full{
+  display:none;
+ }
+ .e_mobile{
+  display:block;
+ }
+}
+
+/* bobos */
 .bobo_full{
   display:block;
  }
@@ -38,12 +52,10 @@ html, body {
 .bobo_mobile{
  display:none;
 }
-
 @media (max-width: 640px) and (min-width: 320px){
  .bobo_full{
   display:none;
  }
-
  .bobo_mobile{
   display:block;
  }
