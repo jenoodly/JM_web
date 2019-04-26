@@ -2,15 +2,16 @@
 
 html, body {
   background-color: #eae7e0; 
-  margin: 5;
-  padding: 5;
+  margin: 200;
+  padding: 20;
   height: 100%;
   width: 100%;
 }
 
 @viewport {
   width: device-width ;
-  
+  margin: 200;
+  padding: 20;
 }
 
 
@@ -52,7 +53,7 @@ html, body {
 
 
 img {
-    padding: 0;
+    padding: 10;
     display: block;
     min-width: 100%;
     min-height: 100%;
