@@ -23,11 +23,11 @@ html, body {
   max-height: 70%;
 }
 
-@media (max-width: 840px) and (min-width: 320px){
+@media (max-width: 840px){
  .pp{
   padding: 10;
   position: absolute;
-  top: 100vh;
+  top: 110vh;
   display: flex;
   justify-content: center;
   max-width: 70%;
@@ -45,7 +45,7 @@ html, body {
 .eggs_mobile{
  display:none;
 }
-@media (max-width: 840px) and (min-width: 320px){
+@media (max-width: 840px){
  .eggs_full{
   display:none;
  }
@@ -67,7 +67,7 @@ html, body {
 .e_mobile{
  display:none;
 }
-@media (max-width: 840px) and (min-width: 320px){
+@media (max-width: 840px){
  .e_full{
   display:none;
  }
@@ -90,7 +90,7 @@ html, body {
 .bobo_mobile{
  display:none;
 }
-@media (max-width: 840px) and (min-width: 320px){
+@media (max-width: 840px){
  .bobo_full{
   display:none;
  }
