@@ -27,7 +27,7 @@ html, body {
  .pp{
   padding: 10;
   position: absolute;
-  top: 125vh;
+  top: 100vh;
   display: flex;
   justify-content: center;
   max-width: 70%;
@@ -104,6 +104,7 @@ html, body {
 .name {
   color: black;
   text-shadow: 2px 5px #cccccc;
+  text-align: center;
 }
 
 @media screen and (min-width: 839px) {
@@ -127,12 +128,14 @@ html, body {
     bottom: 0px;
     left: 100px;
     font-family: 'Kaushan Script', cursive;
+    display: inline-block;
   }
   .last{
     position: absolute;
     bottom: 0px;
     left: 150px;
     font-family: 'Kaushan Script', cursive;
+    display: inline-block;
   }
 }
 
