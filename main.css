@@ -14,25 +14,6 @@ html, body {
   height: device-height ;
 }
 
-.pp{
-  padding: 10;
-  position: absolute;
-  top: 100vh;
-  left: 10vw;
-  max-width: 70%;
-  max-height: 70%;
-}
-
-@media (max-width: 840px) and (min-width: 320px){
- .pp{
-  padding: 10;
-  position: absolute;
-  top: 125vh;
-  left: 15vw;
-  max-width: 70%;
-  max-height: 70%;
- }
-}
 
 /* eggs */
 .eggs_full{
@@ -54,6 +35,26 @@ html, body {
   min-height: 100%;
  }
 }
+.pp{
+  padding: 10;
+  position: absolute;
+  top: 100vh;
+  left: 10vw;
+  max-width: 70%;
+  max-height: 70%;
+}
+
+@media (max-width: 840px) and (min-width: 320px){
+ .pp{
+  padding: 10;
+  position: absolute;
+  top: 125vh;
+  left: 15vw;
+  max-width: 70%;
+  max-height: 70%;
+ }
+}
+
 
 /* excess layer */
 .e_full{
@@ -76,6 +77,7 @@ html, body {
   min-height: 100%;
  }
 }
+
 
 /* bobos */
 .bobo_full{
