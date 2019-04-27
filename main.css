@@ -47,8 +47,8 @@ html, body {
 @media (max-width: 840px) and (min-width: 320px){
  .pp{
   padding: 10;
-  position: absolute;
-  top: 11vh;
+  position: relative;
+  top: -100vh;
   left: 15vw;
   max-width: 70%;
   max-height: 70%;
