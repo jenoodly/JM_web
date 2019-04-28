@@ -146,7 +146,7 @@ html, body {
 
 
 
-@media screen and (min-width: 839px) {
+@media screen and (min-width: 840px) {
   .explain-urself {
     color: black;
     font-size: 2rem;
@@ -155,7 +155,6 @@ html, body {
     left: 8in;
     right: 8in;
   }
-  
   .h3{
     
     text-align: right;
@@ -164,7 +163,7 @@ html, body {
   }
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 839px) {
   .explain-urself {
     color: black;
     padding: 30px;
