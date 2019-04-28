@@ -76,8 +76,8 @@ html, body {
  }
  .e_mobile{
   display:block;
-  padding: 2in;
-  min-width: 100%;
+  
+  min-width: 6in;
   min-height: 100%;
   
  }
