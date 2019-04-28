@@ -77,7 +77,7 @@ html, body {
  .e_mobile{
   display:block;
   
-  min-width: 6in;
+  min-width: 100%;
   min-height: 100%;
   
  }
