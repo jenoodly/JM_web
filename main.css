@@ -106,7 +106,7 @@ html, body {
  }
 }
 
-.name {
+.yourName {
   color: black;
   text-shadow: 2px 5px #cccccc;
   text-align: center;
@@ -145,6 +145,39 @@ html, body {
 }
 
 
+
+@media screen and (min-width: 839px) {
+  .explain-urself {
+    color: black;
+    padding: 20px;
+  }
+  
+  .h3{
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .explain-urself {
+    color: black;
+    padding: 30px;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    
+    color: rgb(0, 0, 0);
+    
+  }
+  
+  .h3{
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 2px;
+   font-weight: 5;
+    
+  }
+}
 
 /* NAVBAR STARTS */
 .container {
