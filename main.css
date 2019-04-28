@@ -198,6 +198,7 @@ html, body {
   text-transform: uppercase;
   margin-top: 2rem;
   float: left;
+  
 }
 .Cname a {
   margin-left: 3rem;
@@ -256,12 +257,13 @@ html, body {
 @media screen and (max-width:840px) {
   .full-navbar{
       display: none;
-      background-color: #eae7e0;
+      
   }
   .navbar li{
       margin-top: 5rem;
       margin-bottom: 5rem;
       display: block;
+     
   }
   .ham_menu{
       display: block !important;
