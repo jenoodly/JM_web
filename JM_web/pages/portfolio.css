@@ -3,7 +3,7 @@
   }
   
   body {
-    background-image: url(bobo.gif);
+    background-color: blanchedalmond;
     padding: 2px;
     font-family: Arial;
     background-repeat: repeat-y;
@@ -32,7 +32,7 @@
   }
   
   .content {
-    background-color: white;
+    
     padding: 10px;
   }
 
