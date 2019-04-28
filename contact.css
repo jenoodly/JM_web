@@ -29,7 +29,7 @@
   /* Style the container/contact section */
   .container {
     border-radius: 5px;
-    background-color:  #eae7e0; 
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,235,245,1) 35%, rgba(255,208,180,1) 100%);
     padding: 10px;
   }
   
