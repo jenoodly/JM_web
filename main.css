@@ -2,16 +2,18 @@
 
 html, body {
   background-color: #eae7e0; 
-  margin: 0;
-  padding: 0;
-  height: 100%;
   width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  
   
 }
 
 @viewport {
-  width: device-width ;
-  height: device-height ;
+   width: device-width;
+   height: device-height;
+   
 }
 
 .pp{
@@ -23,15 +25,16 @@ html, body {
   max-height: 70%;
 }
 
-@media (max-width: 840px){
+@media (max-width: 840px) and (min-width: 320px){
  .pp{
   padding: 10;
   position: absolute;
-  top: 110vh;
+  top: 100vh;
   display: flex;
   justify-content: center;
   max-width: 70%;
   max-height: 70%;
+  
  }
 }
 
@@ -45,7 +48,7 @@ html, body {
 .eggs_mobile{
  display:none;
 }
-@media (max-width: 840px){
+@media (max-width: 840px) and (min-width: 320px){
  .eggs_full{
   display:none;
  }
@@ -67,14 +70,16 @@ html, body {
 .e_mobile{
  display:none;
 }
-@media (max-width: 840px){
+@media (max-width: 840px) and (min-width: 320px){
  .e_full{
   display:none;
  }
  .e_mobile{
   display:block;
+  padding: 2in;
   min-width: 100%;
-  min-height: 10in;
+  min-height: 100%;
+  
  }
 }
 
@@ -90,7 +95,7 @@ html, body {
 .bobo_mobile{
  display:none;
 }
-@media (max-width: 840px){
+@media (max-width: 840px) and (min-width: 320px){
  .bobo_full{
   display:none;
  }
@@ -128,14 +133,14 @@ html, body {
     bottom: 0px;
     left: 100px;
     font-family: 'Kaushan Script', cursive;
-    display: inline-block;
+    
   }
   .last{
     position: absolute;
     bottom: 0px;
     left: 150px;
     font-family: 'Kaushan Script', cursive;
-    display: inline-block;
+    
   }
 }
 
