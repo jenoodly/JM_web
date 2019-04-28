@@ -141,7 +141,6 @@ html, body {
     bottom: 0px;
     left: 150px;
     font-family: 'Kaushan Script', cursive;
-    
   }
 }
 
@@ -150,17 +149,14 @@ html, body {
 @media screen and (min-width: 840px) {
   .explain-urself {
     color: black;
+    width: 840px;
     font-size: 2rem;
-    text-align: justify;
     position: relative;
-    left: 8in;
-    right: 8in;
+    left: 9in;
   }
   .h3{
-    
     text-align: right;
-    letter-spacing: 2px;
-    
+    letter-spacing: 0px;
   }
 }
 
