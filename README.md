@@ -1,2 +1,4 @@
 # ~ ACM website dev ~
-www.jennellemaximo.me
+Currently starting over so WIP :)
+
+First website draft:
