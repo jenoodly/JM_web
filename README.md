@@ -1,4 +1,3 @@
 # ~ ACM website dev ~
-Currently starting over so WIP :)
-https://jenoodly.github.io/
+old/ first website design
 ![home-page](https://github.com/jenoodly/JM_web/blob/master/home-page.png)
